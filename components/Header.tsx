@@ -6,7 +6,7 @@ const AppHeader = () => {
     <header className="flex flex-row gap-4 justify-between items-center px-6 py-2 border-b-[1px] border-[#cecece20]">
       <div>Gnose Media</div>
       <ul>
-        <Link href={"/home"}>Home</Link>
+        <Link href={"/"}>Home</Link>
       </ul>
       <div>
         <RoundedImage

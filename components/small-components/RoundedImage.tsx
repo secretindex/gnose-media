@@ -8,9 +8,9 @@ interface RoundedImageProps {
 
 const RoundedImage: FC<RoundedImageProps> = ({ imageUrl, alt }) => {
   return (
-    <div>
+    <div className="h-full w-full">
       <Image
-        className="rounded-full w-full h-full"
+        className="rounded-md w-full h-full"
         width={30}
         height={30}
         src={imageUrl}

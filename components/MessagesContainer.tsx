@@ -8,11 +8,12 @@ const MessagesContainer = () => {
       <header className="py-2 px-6 ">
         <h2 className="font-bold text-md">Messages</h2>
       </header>
-      <div className="flex flex-col">
+      <div className="flex flex-col px-6">
         <section className="flex flex-col w-2/4">
           {templateMessages.map((message: MessageType) => {
             return (
               <Message
+                key={message.user}
                 message={message.message}
                 profileImage={message.profileImage}
                 username={message.user}
