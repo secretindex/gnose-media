@@ -1,0 +1,10 @@
+.roundedImage {
+  width: 2rem;
+  height: 2rem;
+}
+
+.imageStyle {
+  width: 20px;
+  height: 20px;
+  border-radius: 2rem;
+}
