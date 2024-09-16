@@ -11,8 +11,8 @@ const RoundedImage: FC<RoundedImageProps> = ({ imageUrl, alt }) => {
     <div className="w-full h-full">
       <Image
         className="rounded-md"
-        width={28}
-        height={28}
+        width={30}
+        height={30}
         loading="lazy"
         src={imageUrl}
         alt={alt}
