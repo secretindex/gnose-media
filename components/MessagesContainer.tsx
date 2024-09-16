@@ -8,8 +8,8 @@ const MessagesContainer = () => {
       <header className="py-2 px-6 ">
         <h2 className="font-bold text-md">Messages</h2>
       </header>
-      <div className="flex flex-col px-6">
-        <section className="flex flex-col w-2/4">
+      <div className="flex flex-col px-2 overflow-hidden text-nowrap">
+        <section className="flex w-full flex-col">
           {templateMessages.map((message: MessageType) => {
             return (
               <Message
