@@ -16,6 +16,7 @@ const Message: FC<MessageProps> = ({ message, username, profileImage }) => {
             src={profileImage}
             alt="oi"
             className="block w-[2.5rem] h-[2.5rem] rounded-full"
+            loading="lazy"
           />
         </Link>
       </div>
